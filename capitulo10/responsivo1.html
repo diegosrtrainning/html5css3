@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .example {
+            padding: 20px;
+            color: white;
+        }
+
+        /* Dispositivos muito pequenos (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            .example {
+                background: red;
+            }
+        }
+
+        /* Dispositivos pequenos (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            .example {
+                background: green;
+            }
+        }
+
+        /* Dispositivos médios (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            .example {
+                background: blue;
+            }
+        }
+
+        /* Dispositivos grandes (laptops / desktops, 992px e superior) */
+        @media only screen and (min-width: 992px) {
+            .example {
+                background: orange;
+            }
+        }
+
+            
+        /* Dispositivos extra grandes (laptops e desktops grandes, 1200px ou mais) */
+        @media only screen and (min-width: 1200px) {
+            .example {
+                background: pink;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Pontos de interrupção típicos de consulta de mídia</h2>
+    <p class="example">Redimensione a janela do navegador para ver como a cor de fundo deste parágrafo muda em diferentes tamanhos de tela.</p>
+
+</body>
+
+</html>
