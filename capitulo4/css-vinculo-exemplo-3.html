@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Box model CSS</title>
+    <meta charset="utf-8">
+
+    <style rel="stylesheet" type="text/css" media="screen">
+        p {
+            color: red;
+        }
+
+        /* SPOLIER */
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            p {
+                color: green;
+            }
+        }
+    </style>
+
+    <style rel="stylesheet" type="text/css" media="print">
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <p>texto</p>
+</body>
+
+</html>
