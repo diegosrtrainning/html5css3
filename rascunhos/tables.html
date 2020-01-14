@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table {
+            margin: auto;
+            border: 1px solid lightgray;
+            width: 600px;
+        }
+
+        table thead tr th {
+            background-color: indigo;
+            color: white;
+            text-align: center;
+        }
+
+        table tbody tr:nth-of-type(even) {
+            background-color: grey;
+        }
+
+        table tfoot td {
+            text-align: center;
+        }
+
+        .pagination {
+            display: inline-block;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>cabecalho</th>
+                <th>cabecalho</th>
+                <th>cabecalho</th>
+                <th>cabecalho</th>
+                <th>cabecalho</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">
+                    <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#1">1</a>
+                        <a class="active" href="#2">2</a>
+                        <a href="#3">3</a>
+                        <a href="#4">4</a>
+                        <a href="#5">5</a>
+                        <a href="#6">6</a>
+                        <a href="#7">&raquo;</a>
+                    </div>
+                </td>
+            </tr>
+        </tfoot>
+        </thead>
+    </table>
+</body>
+
+</html>
