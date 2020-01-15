@@ -1,0 +1,104 @@
+.topo a,
+.l-menu li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;    
+}
+
+.topo{
+    background-color: black;
+    color: #fff;    
+}
+
+/* TOPO */
+@media only screen and (max-width: 992px) {
+    
+    .topo{
+        padding-top: 15px;
+        padding-bottom: 15px;        
+    }    
+
+    .topo a.sm-menu{
+        display: block;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    .topo img.sm-logo-img{    
+        width: 25px;
+        float: right;
+    }
+
+    .topo span.sm-logo-texto{    
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 15pt;
+        color: #fff;
+        float: right;
+        margin-top: 0;
+        margin-left: 5px;    
+    }
+
+    .topo a > i{
+        font-size: 12pt;
+        margin: 5px 5px;
+    }
+
+    .topo div.icons-ctn{
+        text-align: right;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    [class|="sm"]{
+        display: none;
+    }
+
+    .l-menu li{         
+        float: left;        
+        margin-right: 10px;
+        list-style: none;        
+    }    
+    .l-menu li a{
+        font-size: 8pt;
+    }
+    .topo{
+        padding-left:41px;
+        padding-right:41px;
+        padding-top: 8px;
+        padding-bottom: 11px;        
+    }        
+
+    .topo img.logo{    
+        width: 25px;
+        float: right;
+    }
+
+    .topo span.logo-texto{    
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 15pt;
+        color: #fff;
+        float: right;
+        margin-top: 0;
+        margin-left: 5px;    
+    }
+
+    .topo a,
+    .topo a > i{
+        font-size: 8pt;
+        margin: 5px 5px;
+    }
+
+    .topo div.icons-ctn{
+        text-align: right;
+        padding-right: 20px;        
+    }
+
+    .l-hoje{
+        display: block;        
+        padding-top: 5px;
+        font-size: 8pt;
+    }
+}
